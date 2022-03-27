@@ -1,0 +1,75 @@
+:root{
+    --mont: font-family: 'Montserrat', sans-serif;
+    --open: font-family: 'Open Sans', sans-serif;
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: #000000;
+    /* color: white; */
+}
+
+
+h1, h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+#landing{
+    /* vh - viewport height - measurement based on the height of the web page-break-inside
+    and the device you're currently viewing the page in */
+    height: 80vh;
+
+    /* We can manipulate the contents of an elemnt using flexbox.
+    By default, arranges the content of an elemnt in a row */
+    display:flex;
+    /* Arranges the ocontents of an elemnt with flex,as a column. */
+    flex-direction:column;
+    /* center all contents of an elemnt with flex as a column (vertically) */
+    align-items: center;
+    /* center all contents of an element with a flex as a column horizontally */
+    justify-content: center;
+}
+
+#gallery{
+    height: 75vh;
+    /* center the contents of #gallery section horizontally and vertically using flex */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+ul{
+    list-style:none;
+    padding: 0;
+}
+
+h2{
+    color: #007bff;
+}
+
+.tools{
+    border: 2px solid white;
+    border-radius: 3px;
+    padding: 25px;
+    margin: 20px;
+    height: 75%;
+     /* The width of this element is at least 75% of its parent element orphans
+     the element that contains. */
+    width: 75%;
+}
+
+html{
+
+    scroll-behavior: smooth;
+}
